@@ -1,0 +1,83 @@
+#Header
+    {
+        background-color: lightgray;
+        height: 150px;
+    }
+
+#Banner
+    {
+        background-image:url("../img/utas.jpg");
+        height: 360px;
+        background-size: 100%;
+        background-repeat:no-repeat;
+        
+    }
+
+#LoginButton    
+    {
+        margin-right:50px;
+    }
+
+#LoginModal
+    {
+        border-radius: 5px;
+    }
+
+#Logo
+    {
+        font-family:Papyrus, fantasy ,serif;
+        font-size:60px;
+        margin-left: 60px;
+        margin-top: 140px;
+        mix-blend-mode: exclusion;
+        
+    }
+
+#exploreButton
+    {
+        border-radius: 5px;
+        margin-right: 60px;
+        margin-top: 280px;
+        font-size: 24px;
+    }
+.user-type{
+    text-align: center;
+}
+.btn-guest{
+    background-color: #cc1174;
+    color: white;
+    width: 100px;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+.btn-host{
+    background-color: #cc1174;
+    color: white;
+    width: 100px;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+.user-type-title{
+    width: 100%;
+    font-size: 35px;
+}
+.modal-header {
+        border-bottom: 1px solid #fff;
+}
+.search-area{
+        background-color: #d3d3d3;
+    padding: 20px;
+}
+.details{
+    padding: 10px;
+}
+.price{
+    float: right;
+    font-size: 30px;
+    color: #ff0000;
+    font-weight: 600;
+}
+.title{
+    font-size: 20px;
+    font-weight: 600;
+}

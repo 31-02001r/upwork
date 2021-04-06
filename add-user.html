@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>System Manager</title>
+	<link rel="stylesheet" type="text/css" href="systemmanager.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+	<div class="menu">
+		<h1>System Manager</h1>
+		<ul>
+			<li>
+				<i class="far fa-list-alt"></i>
+				<a href="#"> Listings</a>
+				<i class="fas fa-chevron-right"></i>
+				<div class= "submenu-1">
+					<ul>
+						<li>
+							<a href="edit-info.html">Edit info</a>
+						</li>
+						<li>
+							<a href="delete.html">Delete</a>
+						</li>
+						<li>
+							<a href="add.html">Add new</a>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<i class="fas fa-users"></i>
+				<a href="#"> Users</a>
+				<i class="fas fa-chevron-right"></i>
+				<div class= "submenu-1">
+					<ul>
+						<li>
+							<a href="edit-user.html">Edit info</a>
+						</li>
+						<li>
+							<a href="del-user.html">Delete User</a>
+						</li>
+						<li>
+							<a href="add-user.html">Add user</a>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<i class="fas fa-star"></i>
+				<a href="reviews.html"> Reviews</a>
+			</li>
+		</ul>
+		
+	</div>
+	
+	<div class="container">
+		<h1>Add User</h1>
+		<form>
+			<label>First name</label>
+			<input type="text" name="title">
+			<label>Second name</label>
+			<input type="text" name="title">
+			<label>Username</label>
+			<input type="text" name="title">
+			<label>Password</label>
+			<input type="password" name="Adress">
+			<br>
+			
+			<button type="button" class="btn btn-primary btn lg" style="margin-left: 300px;margin-top: 50px;">Create</button>
+		</form>
+    
+	</div>
+     <script>
+     	var slider = document.getElementById("myRange");
+		var output = document.getElementById("demo");
+		output.innerHTML = slider.value;
+		slider.oninput = function() {
+		  output.innerHTML = this.value;
+		  }
+  	var slider2 = document.getElementById("myRange2");
+	var output2 = document.getElementById("demo2");
+	output2.innerHTML = slider2.value; 
+	slider2.oninput = function() {
+  	output2.innerHTML = this.value;
+ 
+}
+     </script>    
+</body>
+</html>
